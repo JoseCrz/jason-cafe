@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #9E9E9E;
+    --dark-primary-color: #616161;
+    --light-primary-color: #F5F5F5;
+    --light-accent-color: #FADA61;
+    --dark-accent-color: #F29C3C;
+    --dark-primary-text: #212121;
+    --light-primary-text: #757575;
+    --divider-color: #BDBDBD;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--light-primary-color);
+}
+
+nav {
+    background: var(--dark-primary-color);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--light-primary-color);
+    margin-left: 10px;
+}
+
+.wrapper, .nav-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container img {
+    width: 50px;
+}
