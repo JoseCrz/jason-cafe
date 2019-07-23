@@ -139,3 +139,84 @@ header {
     animation-duration: 3.5s;
     animation-fill-mode: both;
 }
+
+/* MENU STYLES */
+
+#menu h2 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#menu h2 span {
+    background: #fafafa;
+    padding: 10px 20px;
+}
+
+.menu-banner {
+    background-image: url("../img/cafe-banner.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.item-card {
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    color: var(--dark-primary-text);
+    /* border: 1px solid rgb(24, 24, 24); */
+}
+
+.item-card h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.item-card p {
+    font-family: 'Merriweather', serif;
+}
+
+.item-card hr {
+    border: none;
+    width: 62px;
+    height: 4px;
+    margin-bottom: 10px;
+    background-image: url("../img/hr_short.png");
+}
+
+
+.item-description {
+    color: var(--light-primary-text);
+    font-size: 14px;
+}
+
+.item-img-container img {
+    width: 100%;
+}
+
+.price {
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    color: #223541;
+    margin-bottom: 10px;
+}
