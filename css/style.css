@@ -157,7 +157,6 @@ header {
 }
 
 .menu-banner {
-    background-image: url("../img/cafe-banner.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,6 +164,15 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-attachment: fixed; */
+}
+
+#cafe .menu-banner {
+    background-image: url("../img/cafe-banner.JPG");
+}
+
+#brew-bar .menu-banner {
+    background-image: url("../img/brew-bar-banner.png");
 }
 
 .items-container {
@@ -186,6 +194,7 @@ header {
 .item-card h3 {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 30px;
+    letter-spacing: 3px;
     text-transform: uppercase;
     margin: 10px 0;
 }
