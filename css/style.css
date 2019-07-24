@@ -175,8 +175,21 @@ header {
     background-image: url("../img/brew-bar-banner.png");
 }
 
+#bagels .menu-banner {
+    background-image: url("../img/bagels-banner.jpg");
+}
+
+#no-coffe .menu-banner {
+    background-image: url("../img/no-coffee-banner.jpg")
+}
+
+#desserts .menu-banner {
+    background-image: url("../img/desserts-banner.JPG")
+}
+
 .items-container {
-    margin-top: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -188,6 +201,12 @@ header {
     margin: 10px;
     text-align: center;
     color: var(--dark-primary-text);
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
     /* border: 1px solid rgb(24, 24, 24); */
 }
 
