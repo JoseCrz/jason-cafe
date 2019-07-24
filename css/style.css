@@ -279,7 +279,7 @@ header {
 .left, .right {
     width: 50vw;
     height: inherit;
-    border: 1px solid black;
+    
 }
 
 .side-img {
@@ -297,11 +297,6 @@ header {
     height: inherit;
 }
 
-.right.side.img .side-img {
-    background-image: url("../img/food.JPG");
-}
-
-
 .side-content-container {
     padding: 50px;
 }
@@ -312,4 +307,12 @@ header {
 
 .side p {
     font-size: 18px;
+}
+
+.right.side.img .side-img {
+    background-image: url("../img/food.JPG");
+}
+
+.left.side.img .side-img {
+    background-image: url("../img/alejandro.JPG");
 }
