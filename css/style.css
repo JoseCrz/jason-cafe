@@ -24,7 +24,7 @@ header {
 #hero {
     width: 100vw;
     height: 100vh;
-    background-image: url("../img/background.jpg");
+    background-image: url("../img/background.png");
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -265,4 +265,51 @@ header {
     justify-content: center;
     align-items: center;
     height: inherit;
+}
+
+#menu-preview {
+    background: white;
+}
+
+.sides-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left, .right {
+    width: 50vw;
+    height: inherit;
+    border: 1px solid black;
+}
+
+.side-img {
+    height: inherit;
+    width: inherit;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.side.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.right.side.img .side-img {
+    background-image: url("../img/food.JPG");
+}
+
+
+.side-content-container {
+    padding: 50px;
+}
+
+.side h2 {
+    font-size: 40px;
+}
+
+.side p {
+    font-size: 18px;
 }
