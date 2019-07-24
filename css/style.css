@@ -2,9 +2,9 @@
     --primary-color: #9E9E9E;
     --dark-primary-color: #616161;
     --light-primary-color: #F5F5F5;
-    --light-accent-color: #FFC107;
+    --light-accent-color: #ffc239;
     --dark-accent-color: #F29C3C;
-    --dark-primary-text: #212121;
+    --dark-primary-text: #191919;
     --light-primary-text: #757575;
     --divider-color: #BDBDBD;
 }
@@ -247,4 +247,22 @@ header {
     width: 60px;
     color: #223541;
     margin-bottom: 10px;
+}
+
+#about {
+    text-align: center;
+    background: var(--light-accent-color);
+    color: var(--dark-primary-text);
+    height: 100vh;
+}
+
+#about p {
+    font-size: 36px;
+}
+
+.about-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
 }
