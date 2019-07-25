@@ -316,3 +316,48 @@ header {
 .left.side.img .side-img {
     background-image: url("../img/alejandro.JPG");
 }
+
+#info {
+    height: 50vh;
+}
+
+.squares-container {
+    display: flex;
+    height: inherit;
+}
+
+.square {
+    width: 34%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-title {
+    border-top: 5px solid;
+    border-bottom: 5px solid; 
+    padding: 10px 0;
+}
+
+.black {
+    background: var(--dark-primary-text);
+    color: var(--light-accent-color);
+}
+
+.black .square-title {
+    border-color: var(--light-accent-color);
+}
+
+.yellow .square-title {
+    border-color: var(--dark-primary-text);
+}
+
+.yellow {
+    background: var(--light-accent-color);
+    color: var(--dark-primary-text);
+}
+
+.white {
+    background: white;
+}
