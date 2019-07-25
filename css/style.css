@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Coachella;
+    src: url("../fonts/Coachella-Regular.otf");
+}
+
+@font-face {
+    font-family: Archia;
+    src: url("../fonts/Archia-regular.ttf");
+}
+
 :root {
     --primary-color: #9E9E9E;
     --dark-primary-color: #616161;
@@ -14,6 +24,14 @@ body {
     padding: 0;
     background: var(--light-primary-color);
     font-family: Helvetica;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Coachella, sans-serif;
+}
+
+p, a {
+    font-family: Archia, sans-serif;
 }
 
 header {
@@ -269,6 +287,15 @@ header {
 
 #menu-preview {
     background: white;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: var(--dark-primary-text);
+    text-transform: uppercase;
+    background: var(--light-accent-color);
+    padding: 6px 12px;
+    font-weight: 700;
 }
 
 .sides-container {
