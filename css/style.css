@@ -46,7 +46,7 @@ header {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 #hero h1 {
@@ -55,6 +55,10 @@ header {
     color: var(--light-primary-color);
     text-shadow: 1px 2px 2px rgba(0, 0, 0, .5);
     margin-top: 0;
+}
+
+.hero-logo-container {
+    margin-top: 100px;
 }
 
 .logo-container img {
@@ -283,6 +287,10 @@ header {
     justify-content: center;
     align-items: center;
     height: inherit;
+}
+
+.about-content h1 {
+    font-size: 82px;
 }
 
 #menu-preview {
