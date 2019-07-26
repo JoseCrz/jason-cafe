@@ -165,7 +165,6 @@ header {
 /* MENU STYLES */
 
 #menu h2 {
-    font-family: 'Raleway', sans-serif;
     margin: 0;
     font-size: 60px;
     letter-spacing: 2px;
@@ -233,15 +232,13 @@ header {
 }
 
 .item-card h3 {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     letter-spacing: 3px;
     text-transform: uppercase;
     margin: 10px 0;
 }
 
 .item-card p {
-    font-family: 'Merriweather', serif;
 }
 
 .item-card hr {
@@ -263,11 +260,11 @@ header {
 }
 
 .price {
-    font-size: 16px;
+    font-size: 18px;
     display: block;
     margin: 0 auto;
     width: 60px;
-    color: #223541;
+    color: var(--dark-accent-color);
     margin-bottom: 10px;
 }
 
