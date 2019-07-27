@@ -34,6 +34,10 @@ p, a {
     font-family: Archia, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     /* border: 2px solid red; */
     background: rgba(0, 0, 0, .5);
@@ -392,4 +396,23 @@ header {
 
 .white {
     background: white;
+}
+
+footer {
+    background: var(--dark-primary-text);
+    color: var(--light-accent-color);
+    padding: 25px 0;
+}
+
+.footer-content-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-content-container a {
+    color: var(--light-accent-color);
+}
+
+.footer-content-container a:hover {
+    color: var(--dark-accent-color);
 }
