@@ -315,6 +315,12 @@ footer {
 /*--------------- MENU STYLES--------------------- */
 /* ------------------------------------------------ */
 
+.menu-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
 #menu h2 {
     margin: 0;
     font-size: 60px;
@@ -363,22 +369,17 @@ footer {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 
 .item-card {
-    width: 400px;
-    margin: 10px;
+    width: 588px;
+    /* margin: 10px; */
     text-align: center;
     color: var(--dark-primary-text);
-    background: #fff;
-    border-radius: 5px;
     overflow: hidden;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
     /* border: 1px solid rgb(24, 24, 24); */
 }
 
@@ -405,6 +406,8 @@ footer {
 
 .item-img-container img {
     width: 100%;
+    height: 392px;
+    object-fit: cover;
 }
 
 .price {
