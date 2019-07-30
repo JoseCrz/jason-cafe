@@ -376,7 +376,7 @@ footer {
 
 .item-card {
     width: 588px;
-    /* margin: 10px; */
+    margin-bottom: 30px;
     text-align: center;
     color: var(--dark-primary-text);
     overflow: hidden;
@@ -391,11 +391,11 @@ footer {
 }
 
 .item-card hr {
-    border: none;
-    width: 62px;
-    height: 4px;
+    border: 1px solid var(--light-accent-color);
+    width: 80px;
+    /* height: 4px; */
     margin-bottom: 10px;
-    background-image: url("../img/hr_short.png");
+    /* background-image: url("../img/hr_short.png"); */
 }
 
 
