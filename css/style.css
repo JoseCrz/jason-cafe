@@ -166,112 +166,6 @@ header {
     animation-fill-mode: both;
 }
 
-/* MENU STYLES */
-
-#menu h2 {
-    margin: 0;
-    font-size: 60px;
-    letter-spacing: 2px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-#menu h2 span {
-    background: #fafafa;
-    padding: 10px 20px;
-}
-
-.menu-banner {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 380px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-attachment: fixed; */
-}
-
-#cafe .menu-banner {
-    background-image: url("../img/cafe-banner.jpg");
-}
-
-#brew-bar .menu-banner {
-    background-image: url("../img/brew-bar-banner.png");
-}
-
-#bagels .menu-banner {
-    background-image: url("../img/bagels-banner.jpg");
-}
-
-#no-coffe .menu-banner {
-    background-image: url("../img/no-coffee-banner.jpg")
-}
-
-#desserts .menu-banner {
-    background-image: url("../img/desserts-banner.JPG")
-}
-
-.items-container {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-
-.item-card {
-    width: 400px;
-    margin: 10px;
-    text-align: center;
-    color: var(--dark-primary-text);
-    background: #fff;
-    border-radius: 5px;
-    overflow: hidden;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-    /* border: 1px solid rgb(24, 24, 24); */
-}
-
-.item-card h3 {
-    font-size: 26px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin: 10px 0;
-}
-
-.item-card p {
-}
-
-.item-card hr {
-    border: none;
-    width: 62px;
-    height: 4px;
-    margin-bottom: 10px;
-    background-image: url("../img/hr_short.png");
-}
-
-
-.item-description {
-    color: var(--light-primary-text);
-    font-size: 14px;
-}
-
-.item-img-container img {
-    width: 100%;
-}
-
-.price {
-    font-size: 18px;
-    display: block;
-    margin: 0 auto;
-    width: 60px;
-    color: var(--dark-accent-color);
-    margin-bottom: 10px;
-}
-
 #about {
     text-align: center;
     background: var(--light-accent-color);
@@ -415,4 +309,109 @@ footer {
 
 .footer-content-container a:hover {
     color: var(--dark-accent-color);
+}
+
+/* ------------------------------------------------ */
+/*--------------- MENU STYLES--------------------- */
+/* ------------------------------------------------ */
+
+#menu h2 {
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#menu h2 span {
+    background: #fafafa;
+    padding: 10px 20px;
+}
+
+.menu-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-attachment: fixed; */
+}
+
+#cafe .menu-banner {
+    background-image: url("../img/cafe-banner.jpg");
+}
+
+#brew-bar .menu-banner {
+    background-image: url("../img/brew-bar-banner.png");
+}
+
+#bagels .menu-banner {
+    background-image: url("../img/bagels-banner.jpg");
+}
+
+#no-coffe .menu-banner {
+    background-image: url("../img/no-coffee-banner.jpg")
+}
+
+#desserts .menu-banner {
+    background-image: url("../img/desserts-banner.JPG")
+}
+
+.items-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.item-card {
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    color: var(--dark-primary-text);
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    /* border: 1px solid rgb(24, 24, 24); */
+}
+
+.item-card h3 {
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.item-card hr {
+    border: none;
+    width: 62px;
+    height: 4px;
+    margin-bottom: 10px;
+    background-image: url("../img/hr_short.png");
+}
+
+
+.item-description {
+    color: var(--light-primary-text);
+    font-size: 14px;
+}
+
+.item-img-container img {
+    width: 100%;
+}
+
+.price {
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    color: var(--dark-accent-color);
+    margin-bottom: 10px;
 }
