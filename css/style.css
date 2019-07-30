@@ -193,14 +193,25 @@ header {
 }
 
 .cta-button {
+    display: inline-block;
     text-decoration: none;
     color: var(--dark-primary-text);
     text-transform: uppercase;
     background: var(--light-accent-color);
-    padding: 6px 12px;
+    padding: 12px 24px;
     font-weight: 700;
+    font-size: 18px;
+    font-family: Coachella;
+    border-radius: 5px;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
+}
+.cta-button:hover {
+    transform: translateY(-3px);
 }
 
+.cta-button:active {
+    transform: translateY(3px);
+}
 .sides-container {
     display: flex;
     height: 100vh;
@@ -232,11 +243,13 @@ header {
 }
 
 .side h2 {
-    font-size: 40px;
+    font-size: 50px;
+    margin: 0;
 }
 
 .side p {
-    font-size: 18px;
+    font-size: 20px;
+    margin-bottom: 28px;
 }
 
 .right.side.img .side-img {
