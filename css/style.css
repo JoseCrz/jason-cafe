@@ -41,10 +41,14 @@ a {
 header {
     /* border: 2px solid red; */
     background: var(--light-accent-color);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
-
 .hero {
+    padding-top: 96.188px;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -79,14 +83,24 @@ header {
 }
 
 .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 10px 0;
 }
 
 .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
@@ -108,14 +122,24 @@ header {
 
 .hero-inner {
     /* border: 2px solid yellow; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     height: 80%;
 }
 
 .hero-cta-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -125,9 +149,8 @@ header {
     color: var(--dark-primary-text);
     padding: 30px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 .hero-cta-button {
@@ -143,16 +166,28 @@ header {
     border-radius: 30px;
     display: block;
     text-align: center;
+    -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
 }
 
 .hero-cta-button:hover {
     cursor: pointer;
+    -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
 }
 
 .hero-cta-button:active {
+    -webkit-transform: translateY(3px);
     transform: translateY(3px);
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeIn {
@@ -165,8 +200,11 @@ header {
 }
 
 .fadeIn {
+    -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
+    -webkit-animation-duration: 3.5s;
     animation-duration: 3.5s;
+    -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
@@ -182,8 +220,14 @@ header {
 }
 
 .about-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     height: inherit;
 }
@@ -207,16 +251,23 @@ header {
     font-size: 18px;
     font-family: Coachella;
     border-radius: 5px;
+    -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
     transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
 }
+
 .cta-button:hover {
+    -webkit-transform: translateY(-3px);
     transform: translateY(-3px);
 }
 
 .cta-button:active {
+    -webkit-transform: translateY(3px);
     transform: translateY(3px);
 }
+
 .sides-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 100vh;
 }
@@ -224,7 +275,6 @@ header {
 .left, .right {
     width: 50vw;
     height: inherit;
-    
 }
 
 .side-img {
@@ -236,8 +286,14 @@ header {
 }
 
 .side.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     height: inherit;
 }
@@ -269,6 +325,8 @@ header {
 }
 
 .squares-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: inherit;
 }
@@ -276,14 +334,20 @@ header {
 .square {
     width: 34%;
     height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .square-title {
     border-top: 5px solid;
-    border-bottom: 5px solid; 
+    border-bottom: 5px solid;
     padding: 10px 0;
 }
 
@@ -321,7 +385,11 @@ footer {
 }
 
 .footer-content-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
@@ -334,7 +402,9 @@ footer {
 }
 
 /* ------------------------------------------------ */
+
 /*--------------- MENU STYLES--------------------- */
+
 /* ------------------------------------------------ */
 
 .menu-wrapper {
@@ -361,8 +431,14 @@ footer {
     background-size: cover;
     background-position: center;
     height: 380px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     /* background-attachment: fixed; */
 }
@@ -390,11 +466,15 @@ footer {
 .items-container {
     margin-top: 100px;
     margin-bottom: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
-
 
 .item-card {
     width: 588px;
@@ -420,7 +500,6 @@ footer {
     /* background-image: url("../img/hr_short.png"); */
 }
 
-
 .item-description {
     color: var(--light-primary-text);
     font-size: 14px;
@@ -429,6 +508,7 @@ footer {
 .item-img-container img {
     width: 100%;
     height: 392px;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
