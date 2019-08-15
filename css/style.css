@@ -17,6 +17,7 @@
     --dark-primary-text: #191919;
     --light-primary-text: #757575;
     --divider-color: #BDBDBD;
+    --transparent-black: rgba(0, 0, 0, 0.5);
 }
 
 body {
@@ -446,23 +447,23 @@ footer {
 }
 
 #cafe .menu-banner {
-    background-image: url("../img/cafe-banner.jpg");
+    background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/cafe-banner.jpg");
 }
 
 #brew-bar .menu-banner {
-    background-image: url("../img/brew-bar-banner.png");
+    background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/brew-bar-banner.png");
 }
 
 #bagels .menu-banner {
-    background-image: url("../img/bagels-banner.jpg");
+    background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/bagels-banner.jpg");
 }
 
 #no-coffe .menu-banner {
-    background-image: url("../img/no-coffee-banner.jpg")
+    background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/no-coffee-banner.jpg")
 }
 
 #desserts .menu-banner {
-    background-image: url("../img/desserts-banner.JPG")
+    background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/desserts-banner.JPG")
 }
 
 .items-container {
