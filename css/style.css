@@ -458,7 +458,7 @@ footer {
     background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/bagels-banner.jpg");
 }
 
-#no-coffe .menu-banner {
+#no-coffee .menu-banner {
     background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/no-coffee-banner.jpg")
 }
 
