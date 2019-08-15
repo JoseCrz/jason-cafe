@@ -40,10 +40,10 @@ a {
 
 header {
     /* border: 2px solid red; */
-    background: var(--light-accent-color);
-    position: fixed;
-    right: 0;
-    left: 0;
+    background: red;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     z-index: 999;
 }
 
