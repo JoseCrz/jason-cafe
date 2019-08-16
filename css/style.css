@@ -422,10 +422,12 @@ footer {
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: uppercase;
+    color: var(--light-accent-color);
 }
 
 #menu h2 span {
-    background: #fafafa;
+    background: transparent;
+    border: 4px solid var(--light-accent-color);
     padding: 10px 20px;
 }
 
