@@ -673,6 +673,28 @@ footer {
     header {
         position: initial;
     }
+
+    nav {
+        position: fixed;
+        background: rgba(242, 156, 60, 0.97);
+        top: 0;
+        left: -100vw;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: .3s;
+    }
+
+    nav.active {
+        left: 0;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+    }
     
     .navbar {
         display: block;
@@ -691,6 +713,7 @@ footer {
         height: inherit;
         display: flex;
         justify-content: center;
+        font-size: 30px;
     }
 
     .logo-container {
