@@ -554,6 +554,10 @@ footer {
     margin-bottom: 10px;
 }
 
+.price-disclaimer {
+    text-align: center;
+}
+
 /* @media screen and (orientation: portrait) {
     header {
         background: red;
