@@ -504,14 +504,14 @@ footer {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .item-card {
-    width: 588px;
-    margin-bottom: 30px;
+    width: 380px;
+    margin: 0 10px 30px 10px;
     text-align: center;
     color: var(--dark-primary-text);
     overflow: hidden;
@@ -540,7 +540,7 @@ footer {
 
 .item-img-container img {
     width: 100%;
-    height: 392px;
+    /* height: 392px; */
     -o-object-fit: cover;
     object-fit: cover;
 }
