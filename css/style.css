@@ -602,6 +602,12 @@ footer {
     text-align: center;
 }
 
+/* ------------------------------------------------ */
+
+/*---------------- RESPONSIVE DESIGN--------------- */
+
+/* ------------------------------------------------ */
+
 @media screen and (orientation: portrait) {
     .landing-hero {
         background-image: url("../img/grabado-vertical.jpg");
@@ -660,5 +666,35 @@ footer {
 
     .item-card {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    header {
+        position: initial;
+    }
+    
+    .navbar {
+        display: block;
+    }
+
+    .navbar ul {
+        display: initial;
+    }
+
+    .navbar ul li {
+        height: 50px;
+        
+    }
+
+    .navbar ul li a {
+        height: inherit;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: center;
     }
 }
