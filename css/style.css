@@ -87,6 +87,7 @@ header {
 }
 
 .burger-button {
+    display: none;
     background: var(--dark-accent-color);
     position: fixed;
     left: 5px;
@@ -420,6 +421,10 @@ header {
     align-items: center;
 }
 
+.square-content {
+    font-size: 18px;
+}
+
 .square-title {
     border-top: 5px solid;
     border-bottom: 5px solid;
@@ -635,6 +640,10 @@ footer {
         
         height: 392px;
     }
+
+    .sides-container {
+        height: 50vh;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -719,5 +728,38 @@ footer {
     .logo-container {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .burger-button {
+        display: block;
+    }
+    
+    .sides-container {
+        width: 100vw;
+        height: 100vh;
+        flex-flow: column;
+    }
+
+    .left, .right {
+        width: 100vw;
+    }
+
+    .side {
+        height: 50vh;
+    }
+
+    #info {
+        height: initial;
+    }
+
+    .squares-container {
+        flex-flow: column;
+    }
+
+    .square {
+        width: 100%;
+        height: 50vh;
     }
 }
