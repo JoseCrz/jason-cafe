@@ -9,7 +9,7 @@
     <title>Café Jasón</title>
 </head>
 <body>
-    <i class="icon-menu burger-button"></i>
+    <i class="icon-menu burger-button" id="burger-button"></i>
     <header>
         <div class="navbar wrapper">
             <div class="logo-container">
@@ -17,13 +17,13 @@
                     <img src="./img/logo-black.svg" alt="logo">
                 </a>
             </div>
-            <nav>
+            <nav id="nav">
                 <ul>
-                    <li><a href="#cafe">Coffee Bar</a></li>
-                    <li><a href="#brew-bar">Brew Bar</a></li>
-                    <li><a href="#bagels">Bagels</a></li>
-                    <li><a href="#no-coffee">Sin Café</a></li>
-                    <li><a href="#desserts">Postres</a></li>
+                    <li><a class="menu-link" href="#cafe">Coffee Bar</a></li>
+                    <li><a class="menu-link" href="#brew-bar">Brew Bar</a></li>
+                    <li><a class="menu-link" href="#bagels">Bagels</a></li>
+                    <li><a class="menu-link" href="#no-coffee">Sin Café</a></li>
+                    <li><a class="menu-link" href="#desserts">Postres</a></li>
                 </ul>
             </nav>
         </div>
@@ -212,5 +212,20 @@
         </div>
     </footer>
     <script src="./js/zenscroll-min.js"></script>
+    <script>
+        const nav = document.getElementById('nav')
+        const burgerButton = document.getElementById('burger-button')
+        const menuLinks = document.querySelectorAll('.menu-link')
+
+        burgerButton.addEventListener('click', () => {
+            nav.classList.toggle('active')
+        })
+
+        for (let i = 0; i <= 5; i++) {
+            menuLinks.item(i).addEventListener('click', () => {
+                nav.classList.toggle('active')
+            })
+        }
+    </script>
 </body>
 </html>
