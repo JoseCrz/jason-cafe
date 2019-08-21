@@ -61,7 +61,7 @@ a {
     text-decoration: none;
 }
 
-header {
+.menu-header {
     /* border: 2px solid red; */
     background: var(--light-accent-color);
     position: -webkit-sticky;
@@ -111,6 +111,14 @@ header {
     line-height: 50px;
     text-align: center;
     z-index: 1000;
+}
+
+.fake-header {
+    background: var(--light-accent-color);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero {
@@ -206,10 +214,11 @@ header {
 /* .hero-logo-container {
     margin-top: 100px;
 }
+*/
 
 .logo-container img {
     width: 50px;
-} */
+} 
 
 .navbar {
     display: -webkit-box;
@@ -702,7 +711,7 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-    header {
+    .menu-header {
         position: initial;
     }
 
