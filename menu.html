@@ -10,14 +10,14 @@
 </head>
 <body>
     <i class="icon-menu burger-button" id="burger-button"></i>
-    <header>
-        <div class="navbar wrapper">
+    <header class="menu-header">
+        <div class="menu-navbar wrapper">
             <div class="logo-container">
                 <a href="./index.html">
                     <img src="./img/logo-black.svg" alt="logo">
                 </a>
             </div>
-            <nav id="nav">
+            <nav id="menu-nav">
                 <ul>
                     <li><a class="menu-link" href="#cafe">Coffee Bar</a></li>
                     <li><a class="menu-link" href="#brew-bar">Brew Bar</a></li>
@@ -213,7 +213,7 @@
     </footer>
     <script src="./js/zenscroll-min.js"></script>
     <script>
-        const nav = document.getElementById('nav')
+        const nav = document.getElementById('menu-nav')
         const burgerButton = document.getElementById('burger-button')
         const menuLinks = document.querySelectorAll('.menu-link')
 
