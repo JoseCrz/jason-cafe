@@ -72,7 +72,7 @@ header {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 10px;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -391,16 +391,26 @@ header {
 .text-wrapper-centered {
     width: 60%;
     margin: 0 auto;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .text-wrapper-left {
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
     width: 50%;
+}
+
+.text-wrapper-right {
+    /* border: 1px solid cyan; */
+    width: 50%;
+    margin-left: auto;
 }
 
 #kitchen {
     background-image: url("../img/iphone.jpg");
+}
+
+#alejandro {
+    background-image: url("../img/fake-alejandro-2.jpg");
 }
 
 .img-section {
