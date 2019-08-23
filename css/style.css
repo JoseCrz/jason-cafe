@@ -600,8 +600,8 @@ header {
 }
 
 footer {
-    background: var(--dark-primary-text);
-    color: var(--light-accent-color);
+    background: var(--dark-accent-color);
+    color: var(--dark-primary-text);
     padding: 25px 0;
 }
 
@@ -615,11 +615,11 @@ footer {
 }
 
 .footer-content-container a {
-    color: var(--light-accent-color);
+    color: var(--dark-primary-text);
 }
 
 .footer-content-container a:hover {
-    color: var(--dark-accent-color);
+    color: var(--light-primary-color);
 }
 
 /* ------------------------------------------------ */
