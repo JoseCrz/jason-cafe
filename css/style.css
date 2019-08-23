@@ -388,6 +388,11 @@ header {
     color: var(--dark-primary-text);
 }
 
+.black-section {
+    background: var(--dark-primary-text);
+    color: var(--light-accent-color);
+}
+
 .text-wrapper-centered {
     width: 60%;
     margin: 0 auto;
@@ -530,19 +535,21 @@ header {
 }
 
 #info {
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .squares-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: inherit;
+    align-items: center;
+    height: 40vh;
 }
 
 .square {
+    /* border: 1px solid lime; */
     width: 34%;
-    height: inherit;
+    height: 90%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -551,11 +558,12 @@ header {
     justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .square-content {
     font-size: 18px;
+    /* border: 1px solid red; */
 }
 
 .square-title {
