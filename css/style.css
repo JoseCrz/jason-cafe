@@ -388,10 +388,36 @@ header {
     color: var(--dark-primary-text);
 }
 
-.text-wrapper {
+.text-wrapper-centered {
     width: 60%;
     margin: 0 auto;
     border: 1px solid blue;
+}
+
+.text-wrapper-left {
+    border: 1px solid cyan;
+    width: 50%;
+}
+
+#kitchen {
+    background-image: url("../img/iphone.jpg");
+}
+
+.img-section {
+    max-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px;
+}
+
+.img-section h2 {
+    font-size: 36px;
+}
+
+.img-section p {
+    font-size: 18px;
 }
 
 /* .about-content-container {
