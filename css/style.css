@@ -559,6 +559,8 @@ header {
     display: inline-block;
     transition: 450ms all;
     transform-origin: center left;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .carousel-item:hover ~ .carousel-item {
