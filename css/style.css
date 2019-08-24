@@ -59,7 +59,7 @@ a {
 
 header {
     /* border: 2px solid red; */
-    background: var(--light-accent-color);
+    /* background: var(--light-accent-color); */
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -535,6 +535,43 @@ header {
 
 .left.side.img .side-img {
     background-image: url("../img/alejandro.JPG");
+}
+
+.carousel {
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.carousel-container {
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-bottom: 10px;
+}
+
+.carousel-item {
+    width: 300px;
+    height: 350px;
+    background: var(--dark-accent-color);
+    margin-right: 10px;
+    display: inline-block;
+    transition: 450ms all;
+    transform-origin: center left;
+}
+
+.carousel-item:hover ~ .carousel-item {
+    transform: translate3d(100px, 0, 0);
+}
+
+.carousel-container:hover .carousel-item {
+    opacity: .3;
+}
+
+.carousel-container:hover .carousel-item:hover {
+    transform: scale(1.5);
+    opacity: 1;
 }
 
 #info {
