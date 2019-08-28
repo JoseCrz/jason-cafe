@@ -95,15 +95,14 @@ header {
 
 .burger-button {
     display: none;
-    background: var(--dark-accent-color);
+    background: var(--light-accent-color);
     position: fixed;
-    left: 5px;
-    top: 5px;
+    right: 5px;
+    top: 0px;
     width: 50px;
     height: 50px;
     font-size: 24px;
     border-radius: 50%;
-    display: block;
     line-height: 50px;
     text-align: center;
     z-index: 1000;
@@ -892,6 +891,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    .burger-button {
+        display: block;
+    }
+
     .main-navbar-container {
         display: block;
     }
