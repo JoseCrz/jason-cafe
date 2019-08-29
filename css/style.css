@@ -616,11 +616,13 @@ footer {
     color: var(--light-primary-color);
 }
 
-/* ------------------------------------------------ */
+/* 
+! -------------------------------------------
 
-/*--------------- MENU STYLES--------------------- */
+! --------------- MENU STYLES----------------
 
-/* ------------------------------------------------ */
+! -------------------------------------------
+*/
 
 .menu-wrapper {
     max-width: 1200px;
@@ -742,16 +744,14 @@ footer {
     text-align: center;
 }
 
-/* ------------------------------------------------ */
+/* !------------------------------------------------ */
 
-/*---------------- RESPONSIVE DESIGN--------------- */
+/* !---------------- RESPONSIVE DESIGN--------------- */
 
-/* ------------------------------------------------ */
+/* !------------------------------------------------ */
 
 @media screen and (orientation: portrait) {
-    .landing-hero {
-        background-image: url("../img/grabado-vertical.jpg");
-    }
+    
 }
 
 @media screen and (max-width: 1200px) {
@@ -781,11 +781,15 @@ footer {
     }
 }
 
-@media screen and (max-width: 1000px) {
+/* ? iPad Pro */
+@media screen and (max-width: 1024px) {
     /* body {
         background: lightcyan;
     } */
 
+    .hero-cta {
+        font-size: 16px;
+    }
     .menu-wrapper {
         max-width: 800px;
     }
@@ -812,7 +816,7 @@ footer {
         width: 100%;
     }
 }
-
+/* ? Regular iPad */
 @media screen and (max-width: 767px) {
     .burger-button {
         display: block;
@@ -864,7 +868,16 @@ footer {
         font-size: 32px;
     }
 }
+/* ?iPhone 6+ | 7+ | 8+ */
+@media screen and (max-width:414px) {
 
+}
+
+/* ?iPhone 6 | 7 | 8 | X  */
 @media screen and (max-width: 375px) {
     
+}
+/* ?iPhone 4 | 5 | SE */
+@media screen and (max-width: 320px) {
+
 }
