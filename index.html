@@ -229,10 +229,20 @@
         </div>
     </footer>
     <script src="./js/zenscroll-min.js"></script>
+    <script>
+        const mainNavbar = document.querySelector('.main-navbar')
+        const burgerButton = document.getElementById('burger-button')
+        const menuLinks = document.querySelectorAll('.menu-link')
 
-    <form action="www.facebook.com/info" method="post">
+        burgerButton.addEventListener('click', () => {
+            mainNavbar.classList.toggle('active')
+        })
 
-    </form>
-    
+        for (let i = 0; i <= 5; i++) {
+            menuLinks.item(i).addEventListener('click', () => {
+                mainNavbar.classList.toggle('active')
+            })
+        }
+    </script>
 </body>
 </html>
