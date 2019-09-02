@@ -72,6 +72,7 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 10px;
+    height: inherit;
     /* border: 1px solid pink; */
 }
 
@@ -317,6 +318,7 @@ header {
 
 .text-section p {
     font-size: 24px;
+    line-height: 1.65;
 }
 
 .yellow-section {
@@ -492,7 +494,7 @@ header {
     position: relative;
 }
 
-.carousel-item:hover ~ .carousel-item {
+/* .carousel-item:hover ~ .carousel-item {
     transform: translate3d(150px, 0, 0);
 }
 
@@ -503,7 +505,7 @@ header {
 .carousel-container:hover .carousel-item:hover {
     transform: scale(1.5);
     opacity: 1;
-}
+} */
 
 .carousel-item-img {
     width: 100%;
@@ -870,7 +872,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: .3s;
+        transition: cubic-bezier(0.215, 0.610, 0.355, 1) .4s all;
     }
 
     .main-navbar.active {
@@ -903,6 +905,82 @@ footer {
 }
 /* ?iPhone 6+ | 7+ | 8+ */
 @media screen and (max-width:414px) {
+    .logo img {
+        width: 30px;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+    
+    .hero-cta {
+        padding: 12px 6px;
+    }
+
+    .text-wrapper-centered {
+        width: 90%;
+    }
+
+    .text-section h2 {
+        font-size: 42px;
+    }
+
+    .text-section p {
+        font-size: 18px;
+        
+    }
+
+    .img-section {
+        padding: 1px 0px;
+        height: 50vh;
+        text-align: center;
+    }
+
+    .text-wrapper-left, .text-wrapper-right {
+        width: initial;
+    }
+
+    #kitchen {
+        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/iphone.jpg");
+    }
+    
+    #alejandro {
+        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/fake-alejandro-2.jpg");
+    }
+
+    .squares-container {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .square {
+        width: 100%;
+        height: initial;
+    }
+
+    .square div {
+        width: inherit;
+    }
+
+    .square.map {
+        height: 50vh;
+    }
+
+    .google-maps {
+        height: 95%;
+    }
+
+    .footer-content-container {
+        flex-direction: column;
+    }
+
+    .footer-link {
+        margin: 5px 0px;
+    }
 
 }
 
