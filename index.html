@@ -6,109 +6,175 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Pathway+Gothic+One|Raleway:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <title>Café Jasón</title>
 </head>
 <body>
-    <section id="hero" class="hero landing-hero">
-        <div class="hero-cta-container wrapper">
-            <a class="hero-cta yellow" href="./menu.html">Descubre el menú</a>
-            <a class="hero-cta black" href="#about">Conócenos</a>
+    <i class="icon-menu burger-button" id="burger-button"></i>
+    <header class="">
+        <div class="fake-header">
+            <p class="header-message"><strong>¡Encuentranos en <a href="https://www.ubereats.com/es-MX/xalapa/food-delivery/cafe-jason-xalapa/3NsdIr1FREWdpQRIB-o-Zg/" target="_blank">Uber Eats</a>! 🎉</strong></p>
         </div>
-        <!-- <div class="hero-inner fadeIn">
-            <div class="hero-content">
-                <div class="hero-logo-container">
-                    <img src="./img/logo.svg" width="500" alt="">
+        <div class="main-header">
+            <div class="wrapper">
+                <div class="main-navbar-container">
+                    <figure class="logo">
+                        <a href="./index.html">
+                            <img src="./img/logo-black.svg" alt="Logo" width="50px">
+                        </a>
+                    </figure>
+                    <nav class="main-navbar">
+                        <ul>
+                            <li><a class="menu-link" href="./menu.html">Menú</a></li>
+                            <li><a class="menu-link" href="#about">Nosotros</a></li>
+                            <li><a class="menu-link" href="#info">Contacto</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </div> -->
-    </section>
-    <header>
-        <div class="navbar wrapper">
-            <div class="logo-container">
-                <a href="./index.html">
-                    <img src="./img/logo-black.svg" alt="logo">
-                </a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="./menu.html">Menú</a></li>
-                    <li><a href="#about">Nosotros</a></li>
-                    <li><a href="#">Horario</a></li>
-                    <li><a href="#">Dirección</a></li>
-                    <li><a href="#">Redes</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
-    <section id="about">
-        <div class="about-content-container wrapper">
-            <div class="about-content">
-                <h1>Nosotros</h1>
-                <p>Una pequeña descripción sobre Café Jasón, algo así como la misión, visión. Que es lo que busca lograr el café, cómo surge el café. Posiblemente explicar un poco que es la tercera hola del café?</p>
-            </div>
-        </div>
-    </section>
-    <section id="menu-preview">
-        <div class="sides-container">
-            <div class="left side content">
-                <div class="side-content-container">
-                    <h2>Cocina</h2>
-                    <p>Una pequeña y linda descripción sobre la rica comida de Jasón. Tal vez estaría cool mencionar sobre que se cuida hasta el ultimo detalle</p>
-                    <a class="cta-button" href="./menu.html">Conoce el menú</a>
+    <section id="hero" class="hero">
+        <div class="wrapper">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-text-container">
+                        <h1>Café Jasón</h1>
+                        <p>Somos una cafetería de especialidad de la 3ra ola, ubicada en pleno centro de la ciudad de Xalapa, Ver.</p>
+                        <div class="hero-cta-container">
+                            <a href="./menu.html" class="hero-cta yellow">Ver el menú</a>
+                            <a href="#about" class="hero-cta black">Conócenos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-img-container">
+                    <img class="hero-img" src="./img/grabado-vertical.jpg" alt="Grabado">
                 </div>
             </div>
-            <div class="right side img">
-                <div class="side-img"></div>
+        </div>
+    </section>
+    <section id="about" class="text-section yellow-section">
+        <div class="wrapper">
+            <div class="text-wrapper-centered">
+                <h2>Nosotros</h2>
+                <p>A bordo de la librería <strong>Los Argonautas</strong> navegamos cada día bien avituallados de libros y deliciosos cafés 100% Arábica de distintos orígenes; sus ricas fragancias y aromas son un abrazo sensorial que sólo el café bien hecho, recién molido y en proporción perfecta pueden lograr.</p>
             </div>
         </div>
     </section>
-    <section id="alejandro">
-        <div class="sides-container">
-            <div class="left side img">
-                <div class="side-img"></div>
+    <section id="kitchen" class="img-section">
+        <div class="wrapper">
+            <div class="image-section-text-container">
+                <div class="text-wrapper-left">
+                    <h2>La cocina</h2>
+                    <p>En Café Jasón, cuidamos hasta el más minimo detalle. Desde el origen de los ingredientes, hasta la presentación de los mismos. Queremos que siempre tengas la mejor experiencia.</p>
+                    <a href="#" class="hero-cta yellow">Ve el menú</a>
+                </div>
             </div>
-            <div class="right side content">
-                <div class="side-content-container">
+        </div>
+    </section>
+    <section class="text-section white-section">
+        <div class="wrapper">
+            <div class="text-wrapper-centered">
+                <h2>La tercera ola</h2>
+                <p>Nuestra misión es incrementar la calidad del café, propiciar un comercio justo de trato directo, haciendo enfasis en la sustentabilidad. Buscamos un tostado más suave y utilizamos metodos de preparación innovadores.</p>
+            </div>
+        </div>
+    </section>
+    <section id="alejandro" class="img-section">
+        <div class="wrapper">
+            <div class="image-section-text-container">
+                <div class="text-wrapper-right">
                     <h2>Alejandro Jímenez</h2>
                     <p>Originario de Los Angeles, California. Decidió dar un giro de 360 grados a su vida y empezó a compartir su pasión por el café.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="info">
-        <div class="squares-container">
-            <div class="square black">
-                <div class="square-content">
-                    <h3 class="square-title"><span>Horario</span></h3>
-                    <div class="square-info">
-                        <p>Lunes a Viernes: 9:00am - 8:00 pm</p>
-                        <p>Sábado: 10:00 am - 8:00 pm</p>
-                        <p>Domingo: Descansamos</p>
+    <section id="gallery" class="text-section white-section">
+        <div class="wrapper">
+            <h2>Galería</h2>
+            <p class="scroll-text">Desliza</p>
+            <figure class="scroll-img">
+                <img src="./img/scroll.svg" alt="" width="50px">
+            </figure>
+            <div class="carousel">
+                <div class="carousel-container">
+                    <div class="carousel-item">
+                        <img class="carousel-item-img" src="./img/foto-1.JPG" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-item-img" src="./img/foto-2.JPG" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-item-img" src="./img/foto-3.JPG" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-item-img" src="./img/foto-4.JPG" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-item-img" src="./img/foto-5.JPG" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-item-img" src="./img/foto-6.JPG" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="carousel-item-img" src="./img/foto-7.JPG" alt="">
                     </div>
                 </div>
             </div>
-            <div class="square black">
-                <div class="square-content">
-                    <h3 class="square-title"><span>Contacto</span></h3>
-                    <div class="square-info">
-                        <p>Correo</p>
-                        <p>Rojano #20. Col. Centro. Xalapa, Ver.</p>
-                        <p>2282125076</p>
+        </div>
+    </section>
+    <section id="info" class="black-section">
+        <div class="wrapper">
+            <div class="squares-container">
+                <div class="square">
+                    <div>
+                        <h3 class="square-title"><span>Horario</span></h3>
+                        <div class="square-info">
+                            <p>Lunes a Viernes: 9:00am - 8:00 pm</p>
+                            <p>Sábado: 10:00 am - 8:00 pm</p>
+                            <p>Domingo: Descansamos</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="square white">
-                    <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.3141804154056!2d-96.91956918466347!3d19.52812058683013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db33bff4c72fc7%3A0x6531e591230fe9b1!2zQ2Fmw6kgSmFzw7Nu!5e0!3m2!1ses-419!2smx!4v1564527659232!5m2!1ses-419!2smx" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="square">
+                    <div>
+                        <h3 class="square-title"><span>Contacto</span></h3>
+                        <div class="square-info">
+                            <p>Correo</p>
+                            <p>Rojano #20. Col. Centro. Xalapa, Ver.</p>
+                            <p>2282125076</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="square map">
+                        <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.3141804154056!2d-96.91956918466347!3d19.52812058683013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db33bff4c72fc7%3A0x6531e591230fe9b1!2zQ2Fmw6kgSmFzw7Nu!5e0!3m2!1ses-419!2smx!4v1564527659232!5m2!1ses-419!2smx" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="footer-content-container wrapper">
-            <p class="footer-link">Diseño gráfico: <a href="https://www.instagram.com/theurel__/" target="_blank">Juan Pablo</a></p>
-            <p class="footer-link">Desarrollo web: <a href="https://github.com/JoseCrz" target="_blank">José Cuevas</a></p>
-            <p class="footer-link">Grabado: <a href="#" target="_blank">Carlos Garibay</a></p>
+            <p class="footer-link">Diseño gráfico: <a href="https://www.instagram.com/theurel__/" target="_blank">J.P. Theurel</a></p>
+            <p class="footer-link">Desarrollo web: <a href="https://github.com/JoseCrz" target="_blank">J. Cuevas</a></p>
+            <p class="footer-link">Grabado: <a href="https://www.instagram.com/carlosgaribaymillan/" target="_blank">C. Garibay</a></p>
         </div>
     </footer>
     <script src="./js/zenscroll-min.js"></script>
+    <script>
+        const mainNavbar = document.querySelector('.main-navbar')
+        const burgerButton = document.getElementById('burger-button')
+        const menuLinks = document.querySelectorAll('.menu-link')
+
+        burgerButton.addEventListener('click', () => {
+            mainNavbar.classList.toggle('active')
+        })
+
+        for (let i = 0; i < menuLinks.length; i++) {
+            menuLinks.item(i).addEventListener('click', () => {
+                mainNavbar.classList.toggle('active')
+            })
+        }
+    </script>
 </body>
 </html>

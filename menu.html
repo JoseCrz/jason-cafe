@@ -10,24 +10,33 @@
 </head>
 <body>
     <i class="icon-menu burger-button" id="burger-button"></i>
-    <header>
-        <div class="navbar wrapper">
-            <div class="logo-container">
-                <a href="./index.html">
-                    <img src="./img/logo-black.svg" alt="logo">
-                </a>
+    <header class="">
+            <div class="fake-header">
+                <p class="header-message"><strong>¡Encuentranos en <a href="https://www.ubereats.com/es-MX/xalapa/food-delivery/cafe-jason-xalapa/3NsdIr1FREWdpQRIB-o-Zg/" target="_blank">Uber Eats</a>! 🎉</strong></p>
             </div>
-            <nav id="nav">
-                <ul>
-                    <li><a class="menu-link" href="#cafe">Coffee Bar</a></li>
-                    <li><a class="menu-link" href="#brew-bar">Brew Bar</a></li>
-                    <li><a class="menu-link" href="#bagels">Bagels</a></li>
-                    <li><a class="menu-link" href="#no-coffee">Sin Café</a></li>
-                    <li><a class="menu-link" href="#desserts">Postres</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+            <div class="main-header">
+                <div class="wrapper">
+                    <div class="main-navbar-container">
+                        <figure class="logo">
+                            <a href="./index.html">
+                                <img src="./img/logo-black.svg" alt="Logo" width="50px">
+                            </a>
+                        </figure>
+                        <nav class="main-navbar">
+                            <ul>
+                                <li><a class="menu-link" href="./index.html">Inicio</a></li>
+                                <li><a class="menu-link" href="#cafe">Café</a></li>
+                                <li><a class="menu-link" href="#brew-bar">Brew</a></li>
+                                <li><a class="menu-link" href="#bagels">Bagels</a></li>
+                                <li><a class="menu-link" href="#no-coffee">Sin café</a></li>
+                                <li><a class="menu-link" href="#no-coffee">Infusiones</a></li>
+                                <li><a class="menu-link" href="#desserts">Postres</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
     <section id="menu">
         <article id="cafe">
             <div class="menu-banner">
@@ -206,24 +215,24 @@
     </section>
     <footer>
         <div class="footer-content-container wrapper">
-            <p class="footer-link">Diseño gráfico: <a href="https://www.instagram.com/theurel__/" target="_blank">Juan Pablo</a></p>
-            <p class="footer-link">Desarrollo web: <a href="https://github.com/JoseCrz" target="_blank">José Cuevas</a></p>
-            <p class="footer-link">Grabado: <a href="#" target="_blank">Carlos Garibay</a></p>
+            <p class="footer-link">Diseño gráfico: <a href="https://www.instagram.com/theurel__/" target="_blank">J.P. Theurel</a></p>
+            <p class="footer-link">Desarrollo web: <a href="https://github.com/JoseCrz" target="_blank">J. Cuevas</a></p>
+            <p class="footer-link">Grabado: <a href="https://www.instagram.com/carlosgaribaymillan/" target="_blank">C. Garibay</a></p>
         </div>
     </footer>
     <script src="./js/zenscroll-min.js"></script>
     <script>
-        const nav = document.getElementById('nav')
+        const mainNavbar = document.querySelector('.main-navbar')
         const burgerButton = document.getElementById('burger-button')
         const menuLinks = document.querySelectorAll('.menu-link')
 
         burgerButton.addEventListener('click', () => {
-            nav.classList.toggle('active')
+            mainNavbar.classList.toggle('active')
         })
 
-        for (let i = 0; i <= 5; i++) {
+        for (let i = 0; i < menuLinks.length; i++) {
             menuLinks.item(i).addEventListener('click', () => {
-                nav.classList.toggle('active')
+                mainNavbar.classList.toggle('active')
             })
         }
     </script>
