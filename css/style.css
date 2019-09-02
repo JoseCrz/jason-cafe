@@ -96,7 +96,7 @@ header {
 
 .burger-button {
     display: none;
-    background: var(--light-accent-color);
+    /* background: var(--light-accent-color); */
     position: fixed;
     right: 5px;
     top: 0px;
@@ -213,7 +213,7 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 12px;
+    padding: 12px 0px;
 }
 
 .hero-cta {
@@ -377,6 +377,7 @@ header {
 
 .img-section h2 {
     font-size: 36px;
+    margin-top: 0;
 }
 
 .img-section p {
@@ -470,14 +471,13 @@ header {
 .carousel {
     width: 100%;
     overflow: scroll;
-    padding: 30px;
     position: relative;
     /* border: 1px solid black; */
 }
 
 .carousel-container {
     white-space: nowrap;
-    margin: 70px 0px;
+    /* margin: 70px 0px; */
     padding-bottom: 10px;
 }
 
@@ -523,6 +523,16 @@ header {
     right: 0;
     left: 0;
     bottom: 0;
+}
+
+.scroll-text {
+    margin: 0;
+    margin-bottom: -15px;
+    font-size: 12px;
+}
+
+.scroll-img {
+    margin: 0;
 }
 
 .squares-container {
@@ -587,7 +597,7 @@ header {
 }
 
 footer {
-    background: var(--dark-accent-color);
+    background: var(--light-accent-color);
     color: var(--dark-primary-text);
     padding: 25px 0;
 }
@@ -779,10 +789,6 @@ footer {
         width: auto;
         height: 30vh;
     } */
-
-    .yellow-section {
-        background: red;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -934,10 +940,29 @@ footer {
         
     }
 
+    .text-section figure {
+        margin: 0;
+    }
+
     .img-section {
         padding: 1px 0px;
         height: 50vh;
         text-align: center;
+    }
+
+    .img-section h2 {
+        margin: 0;
+    }
+
+    .img-section p {
+        margin-top: 5px;
+        margin-bottom: 18px;
+    }
+
+    .image-section-text-container {
+        height: inherit;
+        display: flex;
+        align-items: center;
     }
 
     .text-wrapper-left, .text-wrapper-right {
@@ -980,6 +1005,14 @@ footer {
 
     .footer-link {
         margin: 5px 0px;
+    }
+
+    .carousel {
+        padding: 0;
+    }
+
+    .carousel-container {
+        margin: 0;
     }
 
 }
