@@ -359,11 +359,19 @@ header {
 }
 
 #kitchen {
-    background-image: url("../img/iphone.jpg");
+    background-image: url("../img/cocina.JPG");
 }
 
-#alejandro {
-    background-image: url("../img/fake-alejandro-2.jpg");
+#miercoles {
+    background-image: url("../img/miercoles.JPG");
+}
+
+#cold {
+    background-image: url("../img/coldbrew.jpg");
+}
+
+#work {
+    background-image: url("../img/table.JPG");
 }
 
 .img-section {
@@ -970,11 +978,19 @@ footer {
     }
 
     #kitchen {
-        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/iphone.jpg");
+        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/cocina.JPG");
     }
     
-    #alejandro {
-        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/fake-alejandro-2.jpg");
+    #miercoles {
+        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/miercoles.JPG");
+    }
+
+    #cold {
+        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/coldbrew.jpg");  
+    }
+
+    #work {
+        background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/table.JPG");
     }
 
     .squares-container {
