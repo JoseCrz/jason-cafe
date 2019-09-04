@@ -577,6 +577,15 @@ header {
     padding: 10px 0;
 }
 
+.info-link {
+    color: var(--light-accent-color);
+}
+
+.info-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .black {
     background: var(--dark-primary-text);
     color: var(--light-accent-color);
