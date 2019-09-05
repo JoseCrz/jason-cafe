@@ -693,6 +693,10 @@ footer {
     background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/brew-bar-banner.png");
 }
 
+#cold-brew .menu-banner {
+    background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/coldbrew.jpg");
+}
+
 #bagels .menu-banner {
     background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/bagels-banner.jpg");
 }
@@ -749,7 +753,7 @@ footer {
 
 .item-img-container img {
     width: 100%;
-    /* height: 392px; */
+    height: 380px;
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -833,7 +837,6 @@ footer {
     }
 
     .item-img-container img {
-        
         height: 392px;
     }
 
@@ -859,7 +862,7 @@ footer {
     }
 
     .item-img-container img {
-        height: auto;
+        height: 355px;
     }
 }
 
