@@ -703,6 +703,10 @@ footer {
     background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/no-coffee-banner.jpg")
 }
 
+#infusions .menu-banner {
+    background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/infusion-banner.jpg");
+}
+
 #desserts .menu-banner {
     background-image: linear-gradient(var(--transparent-black),var(--transparent-black)), url("../img/desserts-banner.JPG")
 }
@@ -1043,6 +1047,15 @@ footer {
 
     .carousel-container {
         margin: 0;
+    }
+
+    #menu h2 {
+        font-size: 42px;
+    }
+
+    .menu-banner {
+        height: auto;
+        padding: 60px 0;
     }
 
 }
