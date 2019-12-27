@@ -859,6 +859,14 @@ footer {
         max-width: 800px;
     }
 
+    /* .img-section p {
+        font-size: 18px;
+    } */
+
+    .img-section {
+        max-height: initial;
+    }
+
     .item-card {
         width: 380px;
     }
